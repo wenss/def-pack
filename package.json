@@ -1,0 +1,37 @@
+{
+  "name": "fault",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:CN服务器2666": "vue-cli-service serve  --mode development",
+    "dev:马来服务器2888": "vue-cli-service serve  --mode developmentml",
+    "build:CN": "vue-cli-service build  --mode production",
+    "build:prodml": "vue-cli-service build --mode productionml"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.7",
+    "moment": "^2.29.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-plugin-component": "^1.1.1",
+    "compression-webpack-plugin": "^6.1.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
